@@ -1,0 +1,52 @@
+$(document).ready(function() {
+  var fetchProduct;
+  var count=0;
+  var arr =[];
+
+$(".button-select").click(function() {
+  var element =  $(this).parent();
+   $(this).html(count++);
+  
+    //$(".button-select").prop('disabled', true);
+      var c=$(this).html('SELECTED <i class="fa fa-check-circle-o"> </i>');
+      c.addClass('button-selected');
+      fetchProduct= $(this).parent().attr('class');
+      arr.push(element);
+      
+      //$(fetchProduct.button).addClass('button-select__disable');
+      var addRemoveButton=($(this).parent().append('<div class="mpp-table__remove"><u>remove</u></div>'));
+      if(count >= 3)
+  {
+      $(".continue").prop('disabled', false);
+      $(".continue").addClass('continue-enable');
+  }
+      $(".mpp-table__remove").click(function() {
+        $(".mpp-table__remove").remove();
+        $(".button-select").html('SELECT');
+        $(".button-select").prop('disabled', false);
+        $(".button-select").addClass('button-select__enable');
+      });
+      $(".continue") .click(function() {
+        var final;
+        //alert(arr);
+        $(".side-block").show();
+        for(i of arr)
+        {
+          final = final +i.html();
+        }
+       var addToCart= $(".side-block").html(final);
+       $(".image-table").addClass('title-size .repairdamage-title-bold');
+   $(".image-table").addClass('title-size .ThinningSolution-title-bold');
+   $(".image-table").addClass('title-size .Addshine-title-bold');
+   $(".image-table").addClass('table-size');
+       element.hide();
+       //addToCart.addClass('fetched-repair-damage');
+       //$(arr.addClass('disable-last-div'));
+       //$(arr).clone().appendTo(".side-block");
+  
+      }); 
+    });
+   
+    
+     }); 
+  
