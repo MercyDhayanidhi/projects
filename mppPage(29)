@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <title>Aveda Products</title>
+    <link rel="stylesheet" type="text/css" href="mppStyle.css">
+    <link
+      rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+      crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="mppjquery.js"></script>
+  </head>
+  <body>
+    <div
+      class="main--screen">
+    <div
+      class="main--logo__center">
+      <img src="logo1.jpg" alt="Avega product logo"/>
+      <div class="customer-service">Customer Service &nbsp|&nbsp Email Sign Up &nbsp| &nbsp Sign In &nbsp |
+        <i class='fas fa-shopping-bag'></i> &nbsp 9 Items Checkout&#62&#62
+      </div>
+      <div class="search-products">
+        <button class="search"> search</button>
+        <button class="GO">GO</button>
+        <button claSS="location">FIND A LOCATION</button>
+        <button class="videos"><i class='far fa-play-circle'></i>&nbsp VIDEOS</button>
+      </div>
+      <div
+        class="grey__color"></div>
+      <div
+        class="nav__tab">
+        <ul>
+          <li
+            class="nav"><a href="#INVATI"></a></li>
+          <li class="nav"><a class="active" href="#home">HAIR CARE</a></li>
+          <li class="nav"><a href="#INVATI">INVATI &#8482 </a> </li>
+          <li class="nav"><a href="#STYLING">STYLING</a></li>
+          <li class="nav"><a href="#SKIN">SKIN CARE</a></li>
+          <li class="nav"><a href="#BODY">BODY</a></li>
+          <li class="nav"><a href="#MEN">MEN</a></li>
+          <li class="nav"><a href="#MAKE">MAKE UP</a></li>
+          <li class="nav"><a href="#PURE">PURE-FEME &#8482</a></li>
+          <li class="nav"><a href="#GIFTS">GIFTS</a></li>
+          <li class="nav"><a href="#DISCOVER"><span  class="nav-color">DISCOVER AVEDA</span></a></li>
+          <li class="nav"><a href="#PROFESSIONAL"><span  class="nav-color">PROFESSIONAL</span></a></li>
+          <li class="nav"><a href="#NEW"> <span    class="nav-color">NEW</span></a></li>
+          <li class="nav"><a href="#OFFERS"> <span class="nav-color">OFFERS</span></a></li>
+        </ul>
+      </div>
+      <div class="returncart">
+        <span class="return-cart-link">&#60&#60Return to Cart</span>
+      </div>
+      <div class="contacts">
+        <span class="call-icon"><img class="call-image" alt="call icon"src="call-icon.jpg"/>Call 24/7:800-644-4831&nbsp&nbsp</span>
+        <span class="mail-icon"><img class="mail-image"alt="mail icon"src="mail-icon.jpg"/>Email 24/7&nbsp&nbsp</span>
+        <span class="text-icon"><img class="text-image" alt="message icon" src="text-icon.jpg"/>Chat live with experts&nbsp </span>
+      </div>
+      <div
+        class="free-sample-title">
+        <span class="title">Choose a FREE Sample</span>
+      </div>
+      <div class="free-sample-subtitle">
+        <span class="title1">Choose one free sample below and click Continue.</span>
+      </div>
+      <hr>
+      </hr>
+      <div class="dropdown-filters">
+        <Span class="title-for-dropdown">Filter by your hair or skin concern:</span>
+        <input class="dropdown" type="text" value="ALL SAMPLES">
+        <span class="squaredown-icon"><i class='fas fa-caret-square-down'></i></input></span>
+        <button class="continue">CONTINUE</button>
+        <div class="skipthis">SKIP THIS&#62&#62</div>
+      </div>
+      <div class="image-table">
+        <div class="repairdamage-title-bold">
+          <span class="hair-care-bold"> HAIR CARE:</span><span class="repairdamage-title"> Repair Damage</span>
+        </div>
+        <div class="repairdamage-First-image">
+          <img class="repair-damage-image" src="repair_damage.jpg" alt="this is the hair care-repair damage"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="repairdamage-second-image">
+          <img class="repair-damage-image" src="repair_damage.jpg" alt="this is the hair care-repair damage"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="repairdamage-third-image">
+          <img class="repair-damage-image"src="repair_damage.jpg" alt="this is the hair care-repair damage"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="repairdamage-fourth-image">
+          <img class="repair-damage-image"src="repair_damage.jpg" alt="this  is the hair care-repair damage"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="ThinningSolution-title-bold">
+          <span class="hair-care-bold"> HAIR CARE:<span class="ThinningSolution-title"> Thinning Solution</span>
+        </div>
+        <div class="Thinningsolition-First-image">
+          <img class="thinning-solution-image"src="Thinning_solution_image.jpg"alt="this  is the hair care-thinning solution"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="Thinningsolition-second-image">
+          <img class="thinning-solution-image"src="Thinning_solution_image.jpg"alt="this  is the hair care-thinning solution"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="Thinningsolition-third-image">
+          <img class="thinning-solution-image"src="Thinning_solution_image.jpg"alt="this  is the hair care-thinning solution"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="Thinningsolition-fourth-image">
+          <img class="thinning-solution-image"src="Thinning_solution_image.jpg"alt="this is the hair care-thinning solution"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="Addshine-title-bold">
+          <span class="hair-care-bold"> HAIR CARE:<span class="Addshine-title"> Add Shine</span>
+        </div>
+        <div class="AddShine-First-image">
+          <img class="add-shine-image1" src="add-shine-image1.jpg" alt="this  is the hair care-add shine"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="AddShine-second-image">
+          <img class="add-shine-image1" src="add-shine-image1.jpg" alt="this  is the hair care-add shine"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="AddShine-third-image">
+          <img class="add-shine-image3" src="add-shine-image3.jpg" alt="this  is the hair care add-shine"/>
+          <span class="product-info">sample of green</span>
+          <span class="product-info1"> science &#8482 face creme</span>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <button class="button-select">SELECT</button>
+        </div>
+        <div class="AddShine-fourth-image"></div>
+      </div>
+      <div class="side-block">
+        <div class="title-samples">YOUR SAMPLES</div>
+        <div class="first-block">
+          <img class="repair-damage-image" src="repair_damage.jpg" alt="this  is the hair care-repair damage"/>
+          <div class="product-info">sample of green</div>
+          <div class="product-info1"> science &#8482 face creme</div>
+          <span class="description1">7 ml /. 24 fl oz</span> <span class="description2"> helps improve visible skin</span><span class="description3"> firmness </span>
+          <div class="mpp-table__remove">remove</div>
+        </div>
+        <div class="second-block"></div>
+        <div class="third-block"></div>
+        <!-- <button class="side-block__continue">CONTINUE</button>
+          <h4 class="side-block__skip">SKIP THIS&#62&#62</h4>-->
+      </div>
+    </div>
+  </body>
+</html>
