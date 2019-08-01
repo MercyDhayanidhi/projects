@@ -1,0 +1,22 @@
+$(document).ready(function()
+{
+$(".before-select").click(function()
+{
+	var selectedBtn = $(this).addClass('after-select');
+	alert(selectedBtn);
+	selectedBtn.addClass('after-select-enable');
+	$(this).parent().prop('disabled',true);
+	$(".before-select").prop('disabled',true);
+	/*$(".after-select").addClass('after-select-enable');
+	if(id != ($(this).attr('id')));
+	alert("hi");
+	$(".before-select").prop('disabled'. true);*/
+	
+	//$(".before-select").prop('disabled',true);
+ /*$(".after-select").addClass('after-select-enable');
+alert(selectedBtn);
+ selectedBtn.removeClass('before-select-disable');
+alert(selectedBtn);*/
+//selectBtn= $(".before-select").addClass('remove-before-select');
+});
+});
