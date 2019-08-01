@@ -1,0 +1,35 @@
+$(document).ready(function() {
+var count=0;
+$(".continue-btn").prop('disabled', true);
+$(".button-select").click(function() {
+var ex = $(this).attr('data-src');
+var fetchedProduct = $(this).parents(".Products").index();
+var sec= $(".repair-damage-selected-image").eq(fetchedProduct);
+sec.attr('src',ex);
+$(this).html(count++);
+//$(".button-select").prop('disabled', true);
+  var c=$(this).html('SELECTED <i class="fa fa-check-circle-o"> </i>');
+  c.addClass('button-selected');
+  var addRemoveButton=($(this).parent().append('<div class="mpp-table__remove"><u>remove</u></div>'));
+  if(count >= 3)
+{
+  $(".continue-btn").prop('disabled', false);
+  $(".continue-btn").addClass('continue-enable');
+}
+  $(".mpp-table__remove").click(function() {
+	$(this).remove();
+	$(this).html(count--);
+	var releaseBtn= $(this).prev(".button-select");
+	alert(releaseBtn);
+	$(".button-select").prop('disabled', false);
+	$(".button-select").addClass('button-select__enable');
+  });
+  $(".continue-btn").click(function(){
+  $(".side-block").show();
+  //sec.remove();
+  $(".cart-table__remove").click(function() {
+  $(this).parent().remove();
+   });
+});
+}); 
+});
