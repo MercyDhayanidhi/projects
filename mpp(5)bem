@@ -1,0 +1,231 @@
+<html>
+  <head>
+    <title>mppPage</title>
+    <link rel="stylesheet" type="text/css" href="mppStyle.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+      crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="mppscript.js"></script>
+  </head>
+  <body>
+    <div class="main-screen">
+    <div class="main-logo">
+      <img src="logo1.jpg" alt="Aveda product logo"/>
+    </div>
+    <div class="site-header__menu-item">Customer Service &nbsp|&nbsp Email Sign Up &nbsp| &nbsp Sign In &nbsp |
+      <i class='fas fa-shopping-bag'></i> &nbsp 9 Items Checkout&#62&#62
+    </div>
+    <div class="search-products">
+      <button class="search-control__btn"> Search</button>
+      <button class="go-control__btn">go</button>
+      <button claSS="location-control__btn">find a location</button>
+      <button class="video-control__btn"><i class='far fa-play-circle'></i>&nbsp videos</button>
+    </div>
+    <div class="nav__content">
+      <ul>
+        <li><a href="#INVATI"></a></li>
+        <li><a class="active" href="#home">hair care</a></li>
+        <li ><a href="#invati">invati &#8482 </a> </li>
+        <li><a href="#styling">styling</a></li>
+        <li ><a href="#skin">skin care</a></li>
+        <li ><a href="#body">body</a></li>
+        <li ><a href="#men">men</a></li>
+        <li><a href="#make">make up</a></li>
+        <li><a href="#pure">pure-feme &#8482</a></li>
+        <li ><a href="#gifts">gifts</a></li>
+        <li ><a href="#discover"><span  class="nav__color-variant">discover aveda</span></a></li>
+        <li ><a href="#professional"><span  class="nav__color-variant">professional</span></a></li>
+        <li><a href="#new"> <span    class="nav__color-variant">new</span></a></li>
+        <li><a href="#offers"> <span class="nav__color-variant">offers</span></a></li>
+      </ul>
+    </div>
+    <div class="cart-link">&#60&#60Return to Cart</div>
+    <div class="contact_menu">
+      <span class="call-icon"><img class="call-image" alt="call icon" src="call-icon.jpg" />Call 24/7:800-644-4831&nbsp&nbsp</span>
+      <span class="mail-icon"><img class="mail-image"alt="mail icon" src="mail-icon.jpg" />Email 24/7&nbsp&nbsp</span>
+      <span class="text-icon"><img class="text-image" alt="message icon" src="text-icon.jpg" />Chat live with experts&nbsp </span>
+    </div>
+    <div class="content-block-formatter-header">
+      Choose a FREE Sample
+    </div>
+    <div class="content-block-formatter-sideheading">
+      Choose one free sample below and click Continue.
+    </div>
+    <hr/>
+    <div class="content-block-formatter-filter">
+      <Span>Filter by your hair or skin concern:</span>
+      <input class="content-block-formatter-filter__dropdown" type="text" value="ALL SAMPLES"/>
+      <span class="dropdown-btn"><i class='fas fa-caret-square-down'></i></input></span>
+      <button class="continue-btn">continue</button>
+      <div class="skip-link">skip this&#62&#62</div>
+    </div>
+    <div class="product-grid-content">
+      <div class="Products">
+        <div class="product-brief__header-repairdamage">
+          <span class="product-brief__heading"> hair care:</span><span class="product__heading-style-repairdamage"> Repair Damage</span>
+        </div>
+        <div class="product-grid__item" id="repairdamage-firstproduct">
+          <img class="repairdamage-image" src="repair_damage.jpg" alt="this is the hair care-repair damage"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz <br/> helps improve visible skin firmness</div>
+          </div>
+          <!--<button class="before-select" id="first-row-first" data-src="repair_damage.jpg">SELECT</button>
+            <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          <div class="category-damage">
+            <button class="button-select" data-src="repair_damage.jpg">select</button>
+          </div>
+        </div>
+        <div class="product-grid__item" id="repairdamage-secondproduct">
+          <img class="repairdamage-image" src="repair_damage.jpg" alt="this is the hair care-repair damage"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz <br/>  helps improve visible skin firmness</div>
+          </div>
+          <button class="button-select" data-src="repair_damage.jpg">select</button>
+        </div>
+        <div class="product-grid__item" id="repairdamage-thirdproduct">
+          <img class="repairdamage-image" src="repair_damage.jpg" alt="this is the hair care-repair damage"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>  helps improve visible skin firmness</div>
+          </div>
+          <button class="button-select" data-src="repair_damage.jpg">select</button>
+        </div>
+        <div class="product-grid__item" id="repairdamage-fourthproduct">
+          <img class="repairdamage-image" src="repair_damage.jpg" alt="this  is the hair care-repair damage"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>  helps improve visible skin firmness</div>
+          </div>
+          <button class="button-select" data-src="repair_damage.jpg">select</button>
+        </div>
+      </div>
+      <div class="Products">
+        <div class="product-brief__header-thinningsolution">
+          <span class="product-brief__heading"> hair care:</span><span class="product__heading-style-thinningsolution"> Thinning Solution</span>
+        </div>
+        <div class="product-grid__item" id="thinningsolution-firstproduct">
+          <img class="thinningsolution-image" src="Thinning_solution_image.jpg" alt="this  is the hair care-thinning solution"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>  helps improve visible skin firmness</div>
+          </div>
+          <button class="button-select" data-src="Thinning_solution_image.jpg">select</button>
+          <!--<button class="before-select" id="scnd-row-first" data-src="Thinning_solution_image.jpg">SELECT</button>
+            <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+        </div>
+        <div class="product-grid__item" id="thinningsolution-secondproduct">
+          <img class="thinningsolution-image" src="Thinning_solution_image.jpg" alt="this  is the hair care-thinning solution"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>   helps improve visible skin firmness</div>
+          </div>
+          <div class="category-damage">
+            <button class="button-select" data-src="Thinning_solution_image.jpg">select</button>
+            <!--<button class="before-select" id="scnd-row-scnd" data-src="Thinning_solution_image.jpg">SELECT</button>
+              <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          </div>
+        </div>
+        <div class="product-grid__item" id="thinningsolution-thirdproduct">
+          <img class="thinningsolution-image" src="Thinning_solution_image.jpg" alt="this  is the hair care-thinning solution"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>  helps improve visible skin firmness</div>
+          </div>
+          <div class="category-damage">
+            <button class="button-select" data-src="Thinning_solution_image.jpg">select</button>
+            <!--<button class="before-select" id="scnd-row-third" data-src="Thinning_solution_image.jpg">SELECT</button>
+              <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          </div>
+        </div>
+        <div class="product-grid__item" id="thinningsolution-fourthproduct">
+          <img class="thinningsolution-image" src="Thinning_solution_image.jpg" alt="this is the hair care-thinning solution"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>  helps improve visible skin firmness</div>
+          </div>
+          <div class="category-damage">
+            <button class="button-select" data-src="Thinning_solution_image.jpg">select</button>
+            <!--<button class="before-select" id="scnd-row-last" data-src="Thinning_solution_image.jpg">SELECT</button>
+              <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          </div>
+        </div>
+      </div>
+      <div class="Products">
+        <div class="product-brief__header-addshine">
+          <span class="product-brief__heading"> hair care:</span><span class="product__heading-style-addshine"> Add Shine</span>
+        </div>
+        <div class="product-grid__item" id="addshine-firstproduct">
+          <img class="addshine-image1" src="add-shine-image1.jpg" alt="this  is the hair care-add shine"/>
+          <div class="product-full_details">
+            <div class="product-full__name" >sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>   helps improve visible skin firmness</div>
+          </div>
+          <div class="category-shine">
+            <button class="button-select" data-src="add-shine-image1.jpg">select</button>
+            <!--<button class="before-select" id="third-row-first" data-src="add-shine-image1.jpg">SELECT</button>
+              <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          </div>
+        </div>
+        <div class="product-grid__item" id="addshine-secondproduct">
+          <img class="addshine-image1" src="add-shine-image1.jpg" alt="this  is the hair care-add shine"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>   helps improve visible skin firmness</div>
+          </div>
+          <div class="category-shine">
+            <button class="button-select" data-src="add-shine-image1.jpg">select</button>
+            <!--<button class="before-select" id="third-row-scnd" data-src="add-shine-image1.jpg">SELECT</button>
+              <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          </div>
+        </div>
+        <div class="product-grid__item" id="addshine-thirdproduct">
+          <img class="addshine-image3" src="add-shine-image3.jpg" alt="this  is the hair care add-shine"/>
+          <div class="product-full_details">
+            <div class="product-full__name">sample of green science &#8482 face creme</div>
+            <div class="product-full__description">7 ml /. 24 fl oz </br>  helps improve visible skin firmness</div>
+          </div>
+          <div class="category-shine">
+            <button class="button-select" data-src="add-shine-image3.jpg">select</button>
+            <!--<button class="before-select" id="third-row-third" data-src="add-shine-image3.jpg">SELECT</button>
+              <button class="after-select">SELECTED<i class="fa fa-check-circle-o"> </i></button>-->
+          </div>
+        </div>
+        <div class="product-grid__item" id="addshine-fourthproduct"></div>
+      </div>
+    </div>
+    <div class="side-block">
+      <div class="side-block-header">YOUR SAMPLES</div>
+      <div class="first-block-selected-products">
+        <img class="haircare-selected-image" src=" "  alt="this is repair damage"/>
+        <div class="side-block-product-full_details">
+          <div class="side-block-product-full__name">sample of green science &#8482 face creme</div>
+          <div class="side-block-product-full__description">7 ml /. 24 fl oz </br> FREE</div>
+        </div>
+        <div class="cart-table__remove">remove</div>
+      </div>
+      <div class="second-block-selected-products">
+        <img class="haircare-selected-image" src=" " alt="this is thinning solution image"/>
+        <div class="side-block-product-full_details">
+          <div class="side-block-product-full__name">sample of green science &#8482 face creme</div>
+          <div class="side-block-product-full__description">7 ml /. 24 fl oz </br> FREE</div>
+        </div>
+        <div class="cart-table__remove">remove</div>
+      </div>
+      <div class="third-block-selected-products">
+        <img class="haircare-selected-image"  alt="this is add shine image"/>
+        <div class="side-block-product-full_details">
+          <div class="side-block-product-full__name">sample of green science &#8482 face creme</div>
+          <div class="side-block-product-full__description">7 ml /. 24 fl oz </br>   FREE</div>
+        </div>
+        <div class="cart-table__remove">remove</div>
+      </div>
+      <div class="side-block__footer">
+        <button class="continue-btn">CONTINUE</button>
+        <div class="skip-link">SKIP THIS&#62&#62 </div>
+      </div>
+    </div>
+  </body>
+</html>
