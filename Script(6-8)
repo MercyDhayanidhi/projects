@@ -1,0 +1,65 @@
+$(document).ready(function() {
+var count= 0;
+$(".continue-btn").prop('disabled', true);
+
+$(".button-select").click(function() {
+var ex = $(this).attr('data-src');
+var fetchedProduct = $(this).parents(".products").index();
+var sec= $(".repair-damage-selected-image").eq(fetchedProduct);
+sec.attr('src',ex);
+$(this).html(count++);
+ alert("first"+count);
+  var c = $(this).html('SELECTED <i class="fa fa-check-circle-o"> </i>');
+  $(this).next().addClass('mpp__remove-enable');
+  //var divId = $(this).closest("div").prop('id');
+  c.addClass('button-selected');
+  c.addClass('button-select__disable');
+  var parentBlock = $(this).parents(".products");
+  $(parentBlock).find(".button-select").addClass('button-select__disable').prop('disabled',true);
+ 
+ //parentName.addClass('button-select__disable');
+ //$(".button-select").addClass('button-select__disable');
+ if(count >= 3)
+{
+  $(".continue-btn").prop('disabled', false);
+  $(".continue-btn").addClass('continue-enable');
+}
+  $(".mpp__remove-btn").click(function() {
+	count = --count;
+	alert(count);
+	var parentBlockReturnBtn = $(this).parents(".products");
+	$(parentBlockReturnBtn).find(".button-select").prop('disabled', false).removeClass('button-select__disable').removeClass('button-selected');
+	$(parentBlockReturnBtn).find(".button-select").html('SELECT');
+	//$(this).prev().removeClass('button-select__disable');
+	$(this).remove();
+	
+	if(count < 3)
+	{
+		$(".continue-btn").removeClass('continue-enable');
+		$(".continue-btn").prop('disabled', true);
+	}
+	else if(count >= 3) 
+	{
+		$(".continue-btn").prop('disabled', false);
+		$(".continue-btn").addClass('continue-enable');
+	}
+  });
+  $(".continue-btn").click(function(){
+	 
+  $(".side-block").show();
+   //$(sec).find('img').remove();
+  //sec.remove();
+  $(".cart-table__remove").click(function() {
+  $(this).parent().remove();
+  $(".side-block").each(function(){
+    var $this = $(this);
+	var hasProduct = $this.find('.second-block selected-products,.third-block selected-products').length > 0;
+	if(!hasProduct){
+        $this.addClass('side-block-compress');
+    }
+});
+ 
+});
+}); 
+});
+});
