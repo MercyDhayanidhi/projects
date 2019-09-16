@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>homepage</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" media="(max-width:768px)" href="style-small.css">
+<link rel="stylesheet" media="(min-width:770px)" href="style-large.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+ crossorigin='anonymous'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="screen">
+<div class= "navigation-bar">
+    <header>
+        <nav>
+            <ul>
+                 <li id="header-left"><a href="#">Enjoy two Free Samples With Any Order</a></li>
+                 <li><a  href="#">LIVE CHAT</a></li>
+                 <li><a  href="#">STORES</a></li>
+				 <li><a  href="#">EMAIL SIGN UP</a></li>
+				 <li><a  href="#">MY ACCOUNT</a></li>
+				 <li><a  href="#"><i class='fas fa-shopping-bag'></i></a></li>
+            </ul>
+	    </nav>
+    </header>
+</div>
+<div class="logo">
+<span class="logo-heading">BOBBI BROWN</span>
+</div>
+</body>
+</html>
